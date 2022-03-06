@@ -1,0 +1,68 @@
+.header {
+    height: 768px;
+    background-image: url(/assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-areas: "logo"
+        "head"
+        "row1"
+        "row2";
+    grid-template-columns: 1fr;
+    grid-template-rows: 64px 367px 243px 86px;
+    align-content: space-between;
+}
+
+.logo {
+    display: grid;
+    grid-area: logo;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.head {
+    display: grid;
+    grid-area: head;
+    justify-self: center;
+    align-self: flex-end;
+    font-family: BebasNeueBold;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 5.70937px;
+    color: #FFFFFF;
+
+}
+
+.row1 {
+    display: grid;
+    grid-area: row1;
+    justify-self: center;
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.row2 {
+    display: grid;
+    grid-area: row2;
+    font-family: OpenSans;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 3.7px;
+
+    color: #FFFFFF;
+
+}
+
+.block1 {
+    height: 65px;
+    display: grid;
+    grid-template-areas: "log m1 m2 m3 m4 m5";
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
